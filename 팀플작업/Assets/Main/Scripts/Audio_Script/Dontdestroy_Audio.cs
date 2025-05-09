@@ -18,8 +18,9 @@ public class Dontdestroy_Audio : Singleton<Dontdestroy_Audio>
     {
         var Clip= Resources.Load<AudioClip>(AudioPath);
         m_Source.clip = Clip;
+        m_Source.loop = true;
         m_Source.Play();
-
+       
     }
   
 }
