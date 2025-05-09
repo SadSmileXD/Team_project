@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class DontDestroy<T> : MonoBehaviour where T : MonoBehaviour
+public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 {
     public static T Instance { get; private set; }
 

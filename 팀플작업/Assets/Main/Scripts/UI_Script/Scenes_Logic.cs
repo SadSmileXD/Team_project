@@ -131,7 +131,7 @@ public class Scenes_Logic : MonoBehaviour
    protected void Game_option()
    {
         Debug.Log("OPTION");
-    }
+   }
    protected void Game_start()
    {
         Debug.Log("START");

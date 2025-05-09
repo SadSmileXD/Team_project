@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Option_UI_Scripts : DontDestroy<Option_UI_Scripts>
+public class Dontdestroy_UI : Singleton<Dontdestroy_UI>
 {
     protected void Awake()
     {
