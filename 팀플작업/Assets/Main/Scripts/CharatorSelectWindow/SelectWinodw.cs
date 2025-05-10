@@ -42,7 +42,7 @@ public class SelectWinodw : MonoBehaviour
         
 
     }
-    void NextStage()
+    void NextStage()//<-- 다음씬으로 이동 ㄱ
     {
         Debug.Log("다음스테이지 ㄱ");
     }

@@ -19,8 +19,5 @@ public class Select : Singleton<Select>
         base.Awake();
         SelectChatator = new Chatator();
     }
-    private void Start()
-    {
-        
-    }
+   
 }

@@ -9,14 +9,5 @@ public class Dontdestroy_UI : Singleton<Dontdestroy_UI>
     {
         base.Awake();  
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
