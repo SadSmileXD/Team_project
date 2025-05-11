@@ -15,4 +15,8 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         Instance = this as T;
         DontDestroyOnLoad(gameObject); // 이 오브젝트는 씬 전환 시에도 유지
     }
+    public virtual  void ThisObjectDestroy()//캐릭터 생성되면 파괴
+    {
+        Destroy(gameObject);
+    }
 }

@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InstanceChartor : MonoBehaviour
+public class ChoiceChartor : MonoBehaviour
 {
     public Chatator chatator;
     Button button;
     private void Awake()
     {
         button = GetComponent<Button>();
-        button.onClick.AddListener(asdsadas);
+        button.onClick.AddListener(SetChartorChoiceInfo);
     }
-    void asdsadas()
+    void SetChartorChoiceInfo()
     {
         Select.Instance.SelectChatator=chatator;
     }

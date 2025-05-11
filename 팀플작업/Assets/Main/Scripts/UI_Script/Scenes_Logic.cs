@@ -59,18 +59,20 @@ public class Scenes_Logic : MonoBehaviour
         {
             thisImage.sprite = loadedImage;//버튼 이미지 설정
         }
-       
+
     }
 
     void Start()
     {
         Initialize_Layer_Settings();
         Apply_UI_Text_Setting();
+        
+      
     }
 
-  
 
-   public void  Initialize_Layer_Settings()
+
+    public void  Initialize_Layer_Settings()
    {
         switch (thisLayer)
         {

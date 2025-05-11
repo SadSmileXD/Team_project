@@ -11,13 +11,19 @@ public enum Chatator
     three,
     four,
 }
+ 
 public class Select : Singleton<Select>
 {
     public  Chatator SelectChatator;
     private void Awake()
     {
         base.Awake();
-        SelectChatator = new Chatator();
+     
+    }
+
+    public override void ThisObjectDestroy()//캐릭터 생성되면 파괴
+    {
+       base.ThisObjectDestroy();
     }
    
 }
